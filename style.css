@@ -1,0 +1,28 @@
+body{
+    background-color: #161821;
+}
+
+
+#number{
+    grid-area: 1 / 1 / span 1 / span 4;
+    text-align: right;
+    background-color: #1E1F2B;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #47ADEA;
+
+}
+.grid-item{
+    background-color: #282A3A;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}

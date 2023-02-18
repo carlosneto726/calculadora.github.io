@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculadora em javascript</title>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <h1 id="number">0</h1>
+
+        <div class="clear grid-item" onclick="limpar()">C</div>
+        <div class="grid-item" onclick="apagar()"><=</div>
+        <div class="grid-item" onclick="addChar(this)">^</div>
+        <div class="grid-item" onclick="addChar(this)">/</div>
+
+        <div class="grid-item" onclick="addChar(this)">7</div>
+        <div class="grid-item" onclick="addChar(this)">8</div>
+        <div class="grid-item" onclick="addChar(this)">9</div>
+        <div class="grid-item" onclick="addChar(this)">*</div>
+
+        <div class="grid-item" onclick="addChar(this)">4</div>
+        <div class="grid-item" onclick="addChar(this)">5</div>
+        <div class="grid-item" onclick="addChar(this)">6</div>
+        <div class="grid-item" onclick="addChar(this)">-</div>
+
+        <div class="grid-item" onclick="addChar(this)">1</div>
+        <div class="grid-item" onclick="addChar(this)">2</div>
+        <div class="grid-item" onclick="addChar(this)">3</div>
+        <div class="grid-item" onclick="addChar(this)">+</div>
+
+        <div class="grid-item" onclick="polarizar()">+/-</div>
+        <div class="grid-item" onclick="addChar(this)">0</div>
+        <div class="grid-item" onclick="addChar(this)">.</div>
+        <div class="grid-item" onclick="calcular()">=</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
