@@ -1,4 +1,27 @@
+/*
+========== Coisas que tem que ter na calculadora ========== 
+Somar: ok
+Subtrair: ok
+Multiplicar: ok
+Dividir: ok
+Exponenciar: ok
+Radicar: 
+Modo Cientifico: 
+Calcular equações:
+Historico: 
+Light Mode / Dark Mode:
+Label com calculo em tempo real:
+*/
+
 var number = document.getElementById("number");
+
+var indexPow
+var indexDiv
+var indexMul
+var indexSub
+var indexAdd
+
+
 
 function limpar() {
     number.innerHTML = "0";

@@ -14,10 +14,12 @@ body{
     grid-template-columns: 80px 80px 80px 80px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     gap: 10px;
     font-family: 'Montserrat', sans-serif;
     color: #47ADEA;
+
+
+    /* padding-top: 200px; */
 
 }
 .grid-item{
