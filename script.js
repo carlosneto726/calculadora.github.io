@@ -1,5 +1,6 @@
 /*
-========== Coisas que tem que ter na calculadora ========== 
+========== To do ==========
+
 Somar: ok
 Subtrair: ok
 Multiplicar: ok
@@ -11,17 +12,11 @@ Calcular equações:
 Historico: 
 Light Mode / Dark Mode:
 Label com calculo em tempo real:
+
 */
 
 var number = document.getElementById("number");
-
-var indexPow
-var indexDiv
-var indexMul
-var indexSub
-var indexAdd
-
-
+var historico = document.getElementById("history");
 
 function limpar() {
     number.innerHTML = "0";
@@ -77,14 +72,13 @@ function calcular() {
         output = subtract(parseFloat(sub[0]), parseFloat(sub[1]));
     }
     number.innerHTML = output
-
+    historico.innerHTML += "\n" + problem + " = " + output
 }
 
 // 1º
 function power(n1, n2) {
     return n1 ** n2
 }
-
 function sqrt(n) {
     return n ** 0.5
 }
@@ -93,7 +87,6 @@ function sqrt(n) {
 function multiply(n1, n2) {
     return n1 * n2
 }
-
 function divide(n1, n2) {
     return n1 / n2
 }
@@ -101,10 +94,7 @@ function divide(n1, n2) {
 // 3º
 function plus(n1, n2) {
     return n1 + n2
-
 }
-
 function subtract(n1, n2) {
     return n1 - n2
-
 }

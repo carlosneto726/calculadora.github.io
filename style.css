@@ -7,6 +7,19 @@ body{
     grid-area: 1 / 1 / span 1 / span 4;
     text-align: right;
     background-color: #1E1F2B;
+    
+}
+
+#history{
+    grid-area: 1 / 5 / span 8 / span 1;
+    text-align: center;
+    background-color: #1E1F2B;
+    color: #47ADEA;
+    border: solid 0px;
+    margin-left: 10px;
+    resize: none;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grid-container{
@@ -17,9 +30,7 @@ body{
     gap: 10px;
     font-family: 'Montserrat', sans-serif;
     color: #47ADEA;
-
-
-    /* padding-top: 200px; */
+    padding-top: 10%;
 
 }
 .grid-item{
